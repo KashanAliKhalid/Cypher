@@ -1,0 +1,83 @@
+.navbar
+{
+    background: transparent !important;
+}
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}
+
+
+.navbar-bottom-li
+{
+    padding-top:40px;
+    font-size: 20px;
+
+}
+
+
+.confident-antibrowser
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 900;
+    color:#ffffff !important;
+    text-shadow: -1px 1px, 1px 1px, 1px 1px;
+    border-bottom: 3px solid deeppink;
+
+}
+
+.download2
+{
+    float:right;
+}
+
+
+
+@media only screen and (max-width: 768px)  {
+
+    .navbar-bottom
+    {
+        margin-top: 30px;
+    }
+    .confident-antibrowser,.download2
+    {
+        padding-bottom: 30px;
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .navbar-bottom-li
+    {
+        padding-top:10px;
+        font-size: 20px
+
+    }
+
+    .bottom-img
+    {
+        width:50px;
+        height: 50px;
+        padding-top: 0;
+
+    }
+
+
+}
+
+

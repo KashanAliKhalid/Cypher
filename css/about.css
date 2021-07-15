@@ -1,0 +1,390 @@
+body
+{
+    background-image: url("../cypher/About/Background about.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.A-bg-div
+{
+
+    background-image: url("../cypher/About/bg element for title.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+height: 240px;
+    width: 70%
+}
+
+.navbar
+{
+    background: transparent !important;
+}
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}
+
+.about
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 44px;
+    line-height: 16px !important;
+    font-weight: 800;
+    color:#ffffff !important;
+    position: absolute;
+    padding-left: 155px;
+    padding-bottom: 10px;
+
+}
+
+.slider-main
+{
+    background-color: rgba(0,0,0,0.3);
+    height: 300px;
+}
+
+.slider-arrow
+{
+    margin-top: 100px;
+}
+
+.slider-heading
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 20px;
+    line-height: 16px !important;
+    font-weight: 800;
+    color:#8ccaf3;
+    margin-top:50px;
+    text-align: center;
+}
+
+
+.slider-text
+{
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color:white;
+    margin-top:50px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .slider-arrow
+    {
+        margin-top: 50px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .slider-heading
+    {
+       font-size: 10px;
+        line-height: 0.5;
+        margin-top:10px;
+        letter-spacing: 1px;
+    }
+
+    .slider-main
+    {
+        height: 200px;
+    }
+
+    .A-bg-div
+    {
+        width: 100%
+    }
+
+    .slider-text
+    {
+       font-size: 10px;
+        margin-top:10px;
+
+
+    }
+}
+
+.navbar
+{
+    background: transparent !important;
+}
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}
+
+
+.navbar-bottom-li
+{
+    padding-top:40px;
+    font-size: 20px;
+
+}
+
+
+.confident-antibrowser
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 900;
+    color:#ffffff !important;
+    text-shadow: -1px 1px, 1px 1px, 1px 1px;
+    border-bottom: 3px solid deeppink;
+
+}
+
+.download2
+{
+    float:right;
+}
+
+
+
+@media only screen and (max-width: 768px)  {
+
+    .navbar-bottom
+    {
+        margin-top: 30px;
+    }
+    .confident-antibrowser,.download2
+    {
+        padding-bottom: 30px;
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .navbar-bottom-li
+    {
+        padding-top:10px;
+        font-size: 20px
+
+    }
+
+    .bottom-img
+    {
+        width:50px;
+        height: 50px;
+        padding-top: 0;
+
+    }
+
+
+}
+
+.whom-text
+{
+    letter-spacing: 3px;
+    font-family:Montserrat;
+    font-size: 25px;
+    color:#ffffff !important;
+    text-align: left;
+    transform: rotate(-90deg);
+    margin-left:-100px;
+    margin-bottom: 50px;
+
+}
+
+.sharpened-text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 55px;
+    line-height: 1.2;
+    color:#ffffff !important;
+    margin-left:-80px;
+}
+.sharpened-text-span
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: bolder;
+    color:deeppink;
+    text-shadow: -1px 1px, 1px 1px, 1px 1px;
+}
+.text-div
+{
+    margin-top:150px;
+}
+
+.slider-arrow
+{
+    width:50px;
+    height: 50px;
+}
+@media only screen and (max-width: 999px)  {
+
+
+    .whom-text
+    {
+        letter-spacing: 3px;
+        font-family:Montserrat;
+        font-size: 9px;
+        color:#ffffff !important;
+        text-align: center;
+        transform: rotate(-90deg);
+        margin-left:50px;
+        margin-top:10px;
+    }
+
+    .sharpened-text
+    {
+        letter-spacing: 5px;
+        font-family:Montserrat;
+        font-size: 20px;
+        line-height: 1.2;
+        color:#ffffff !important;
+        margin-left:1px
+    }
+    .sharpened-text-span
+    {
+        letter-spacing: 5px;
+        font-family:Montserrat;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: bolder;
+        color:deeppink;
+        text-shadow: -1px 1px, 1px 1px, 1px 1px;
+    }
+
+    .text-div
+    {
+        margin-top:0;
+    }
+
+    .slider-arrow {
+        width: 10px;
+        height: 50px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 999px) {
+    .whom-text
+    {
+
+        margin-left:-30px;
+
+
+    }
+
+
+}
+
+
+
+.whom-block-image
+{
+    position:relative;
+}
+
+.whom-block-div img
+{
+
+  max-width: 100%;
+    max-height: 100%;
+}
+
+.colon
+{
+    color:darkblue;
+    font-size:25px;
+}
+
+.whom-block-text
+{
+position: absolute;
+    letter-spacing: 3px;
+    font-family:Montserrat;
+    font-size: 35px;
+    color:#ffffff !important;
+    text-align: center;
+    line-height: 1.3;
+    visibility: visible;
+    opacity: 1;
+    transition:  visibility 0s,opacity 0.5s linear;
+}
+.whom-block-text-2
+{
+    position: absolute;
+    font-family:Montserrat;
+    font-size: 20px;
+    color:#ffffff !important;
+    text-align: center;
+    line-height: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition:  visibility 0s,opacity 0.5s linear;
+}
+
+.whom-block-div:hover .whom-block-text
+{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.whom-block-div:hover .whom-block-text-2
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.whom-block-div:hover
+{
+    background-color: rgba(255,255,255,0.1);
+}
+
+
+
+@media only screen and (max-width: 999px) {
+    .whom-block-text
+    {
+     font-size: 10px;
+    }
+    .whom-block-text-2
+    {
+        font-size:5px
+    }
+
+
+}
+
+

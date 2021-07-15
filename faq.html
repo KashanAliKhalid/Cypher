@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+
+    <script rel="script" type="text/javascript" src="js/faq.js" ></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/faq.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--   inter font for headings-->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Cypher</title>
+    <link rel="shortcut icon" href="cypher/LOGO%20mini.png" />
+
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""><img height="30" width="30" src="hamburger.png"></span>
+    </button>
+
+    <div class="collapse navbar  navbar-collapse" id="navbarSupportedContent">
+        <ul id="navbar" class="navbar-nav mb-4 ml-lg-0">
+            <li class="nav-item active">
+                <a id="main" class="nav-link text" href="Index.html">MAIN<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="about" class="nav-link text" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="documentation" class="nav-link text" href="Documentation.html">DOCUMENTATION<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="faq" class="nav-link text active_nav" href="faq.html">FAQ<span class="sr-only">(current)</span></a>
+            </li>
+
+        </ul>
+        <ul class="navbar-nav ml-lg-auto mr-lg-4 mb-4" >
+
+            <li class="nav-item active nav-right-button ml-lg-auto mr-lg-1  ">
+                <a class="nav-link text mt-1" href="Download.html"><img src="cypher/Download%20button.svg" height="40"><span class="sr-only"></span></a>
+            </li>
+
+            <li  class="nav-item dropdown ml-lg-auto mt-3 ">
+                <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    EN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="category">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div>
+                    <div class="A-bg-div d-flex align-items-center justify-content-center"> <img height="230" width="150" class="img-fluid" src="cypher/FAQ/F-title.svg"><p class="about">FAQ</p></div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-9">
+                <div class="row">
+                    <div  class="  col-12 col-md-6">
+                        <div id="general" class="category-div mt-5 mt-md-0  d-flex justify-content-start align-items-center"> <img class="ml-5" src="cypher/FAQ/general.svg">
+                            <p class="ml-4">General issues</p>
+                        </div>
+                    </div>
+                    <div  class="  col-12 col-md-6 mt-2 mt-lg-0">
+                        <div id="problem" class="category-div  d-flex justify-content-start align-items-center"> <img  class="ml-5" src="cypher/FAQ/problem.svg">
+                            <p class="ml-4">Problem Solving</p>
+                        </div>
+                    </div>
+                    <div  class="  col-12 col-md-6 mt-2">
+                        <div id="payment" class="category-div  d-flex justify-content-start align-items-center"> <img class="ml-5" src="cypher/FAQ/payment.svg">
+                            <p class="ml-4">Payment</p>
+                        </div>
+                    </div>
+                    <div  class="  col-12 col-md-6 mt-2">
+                        <div id="license" class="category-div  d-flex justify-content-start align-items-center"> <img class="ml-5" src="cypher/FAQ/license.svg">
+                            <p class="ml-4">License</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container question-div pb-5 pt-1 mt-5">
+        <div class="row mt-5 d-flex justify-content-center align-items-center " >
+            <div class="col-1">
+                <img id="main-img" width="80" height="80" src="cypher/FAQ/general.svg">
+            </div>
+            <div class="col-11">
+               <p id="main-head" class="question-div-head ml-5 ml-md-3" >General Issues</p>
+            </div>
+
+        </div>
+<div class="mx-5 mx-md-5 px-5">
+    <div id="questions" class="container">
+        <div id="question1" class="question">
+            <div class="row">
+                <div class="col-11">
+                    <p id="q-1" class="question-q" >What is Cypher?</p>
+                </div>
+                <div class="col-1 mb-2" > <img id="plus-1" src="cypher/FAQ/plus%20btn.svg"> </div>
+                <div class="col-11">
+                    <p id="answer-1" class="answer answer-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+
+        <div id="question2" class="question mt-4">
+            <div class="row">
+                <div class="col-11">
+                    <p id="q-2" class="question-q" >How can i use the geolocation?</p>
+                </div>
+                <div  class="col-1 mb-2" > <img id="plus-2" src="cypher/FAQ/plus%20btn.svg"> </div>
+                <div class="col-11">
+                    <p id="answer-2" class="answer answer-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+        <div id="question3" class="question mt-4">
+            <div class="row">
+                <div class="col-11">
+                    <p id="q-3" class="question-q" >How do i know if i have the latest version?</p>
+                </div>
+                <div  class="col-1 mb-2" > <img id="plus-3" src="cypher/FAQ/plus%20btn.svg"> </div>
+                <div class="col-11">
+                    <p id="answer-3" class="answer answer-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+
+
+        <div id="question4" class="question mt-4">
+            <div class="row">
+                <div class="col-11">
+                    <p id="q-4" class="question-q" >How do i know if i have the latest version?</p>
+                </div>
+                <div  class="col-1 mb-2" > <img id="plus-4" src="cypher/FAQ/plus%20btn.svg"> </div>
+                <div class="col-11">
+                    <p id="answer-4" class="answer answer-display">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

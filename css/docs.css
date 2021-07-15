@@ -1,0 +1,141 @@
+html,body
+{
+    margin:0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("../cypher/Documentations/bg.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+
+}
+
+.navbar
+{
+    background: transparent !important;
+}
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}
+
+
+.left
+{
+    position: fixed;
+    height: 100%;
+    overflow-y:scroll;
+    background-size: cover;
+    background-color: #3a2041;
+    left:0;
+}
+
+.right
+{
+    position: absolute;
+    background-size: cover;
+    background: transparent;
+    right:0;
+}
+
+.left::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.left {
+    -ms-overflow-style: none;
+}
+
+
+.main-text::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.main-text {
+    -ms-overflow-style: none;
+}
+
+.left ul
+{
+    list-style: none;
+    border-left:1px solid white;
+    padding-left: 20px;
+    margin-left:30px;
+    margin-top:20px
+}
+
+.left li
+{
+    font-family:Montserrat;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 400;
+    color:#ffffff !important;
+}
+
+.left h3
+{
+    font-family:Montserrat;
+    line-height: 2;
+    font-weight: 400;
+    color:#ffffff !important;
+}
+
+.right-main-head
+{
+    background-image: url("../cypher/Documentations/bg.png");
+    background-size: cover;
+    height:50px;
+    width: 100%;
+    position: fixed;
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 50px;
+    line-height: 16px !important;
+    font-weight: 800;
+    color:#ffffff !important;
+    padding-left: 40px;
+    z-index: 99999;
+}
+
+.right h3
+{
+    letter-spacing: 3px;
+    font-family:Montserrat;
+    font-size: 25px;
+    line-height: 16px !important;
+    font-weight: 800;
+    color:#ffffff;
+    margin-top:60px;
+
+}
+
+.main-text
+{
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    font-family:Montserrat;
+    font-size: 18px;
+    color:#ffffff;
+    font-weight: normal;
+    padding-bottom: 150px;
+}
+

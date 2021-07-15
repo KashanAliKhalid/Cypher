@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <meta charset="UTF-8">
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+
+    <script rel="script" type="text/javascript" src="js/download.js" ></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/download.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--   inter font for headings-->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Cypher</title>
+    <link rel="shortcut icon" href="cypher/LOGO%20mini.png" />
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""><img height="30" width="30" src="hamburger.png"></span>
+    </button>
+
+    <div class="collapse navbar  navbar-collapse" id="navbarSupportedContent">
+        <ul id="navbar" class="navbar-nav mb-4 ml-lg-0">
+            <li class="nav-item active">
+                <a id="main" class="nav-link text " href="Index.html">MAIN<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="about" class="nav-link text" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="documentation" class="nav-link text" href="Documentation.html">DOCUMENTATION<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="faq" class="nav-link text" href="faq.html">FAQ<span class="sr-only">(current)</span></a>
+            </li>
+
+        </ul>
+        <ul class="navbar-nav ml-lg-auto mr-lg-4 mb-4" >
+
+            <li class="nav-item active nav-right-button ml-lg-auto mr-lg-1  ">
+                <a class="nav-link text mt-1" href="Download.html"><img src="cypher/Download%20button.svg" height="40"><span class="sr-only"></span></a>
+            </li>
+
+            <li  class="nav-item dropdown ml-lg-auto mt-3 ">
+                <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    EN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="signup">
+    <div class="row">
+        <div class="col-6 left">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <img class="mt-5" height="200" width="200" src="cypher/LOGO%20mini.png">
+                <h3 class="mt-4">Cypher Anti-browser</h3>
+                <div id="button-div" class="buttons">
+                    <button id="create" >Create new</button>
+                    <button id="refill" style="margin-left:-10px " class="active-button" >Refill</button>
+                </div>
+                <p class="login-text">Login and pay</p>
+
+            </div>
+        </div>
+        <div class="col-6 right">
+            <div class="container">
+                <label style="margin-top: 100px">User name:</label>
+                <input type="text" placeholder="Lucky" >
+
+                <label>Password:</label>
+                <input type="password" placeholder="*****" >
+
+                <label id="reenter" >Re-Enter Password:</label>
+                <input id="reenter2"  type="password" placeholder="******" >
+                <a href=""><img class="mt-4" width="250" height="51" src="cypher/Licenses/continue%20btn.svg"></a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div id="body" class="container">
+    <div class="row">
+        <div class="col-12 text-center mb-5 head text"> LICENSES</div>
+
+        <div class="col-4 mt-3 mt-md-4 mt-lg-5">
+            <div class="license-img" style="position: absolute; "><img class="img-fluid" height="509" width="358" src="cypher/Licenses/bsc.svg"></div>
+
+            <div  class=" license-div d-flex flex-column justify-content-around align-items-center " style="position: relative ">
+                <h3 class="mt-1 ml-md-4 ml-4 mt-lg-5 mr-lg-4">BASIC</h3>
+                <div class=" mt-lg-5 d-flex flex-column align-items-center ellipse">
+                    <img class="img-fluid ml-lg-2 ml-md-4 ml-4 mt-2" src="cypher/Licenses/Ellipse%20156.svg">
+                    <div class="ellipse-text ml-md-2 my-5 py-md-4 ml-3 mt-xl-5 ml-xl-1">$50<br> <span> MONTH</span></div>
+                </div>
+                <div class="less ml-md-3 mt-md-0  mt-lg-0 mt-xl-4 ml-4" ><br></div>
+                <button class="mb-5 btn ml-md-3 select ml-4 select-btn " onmouseover="hover(this);" onmouseout="unhover(this);"><p>SELECT</p>  </button>
+
+            </div>
+        </div>
+
+
+
+        <div class="col-4">
+            <div class="license-img" style="position: absolute; "><img class="img-fluid" height="509" width="358" src="cypher/Licenses/std.svg"></div>
+
+            <div  class=" license-div d-flex flex-column justify-content-around align-items-center " style="position: relative ">
+                <h3 class="mt-1 ml-4 ml-md-4 mt-lg-5 mr-lg-4">STANDARD</h3>
+                <div class=" mt-lg-5 d-flex flex-column align-items-center ellipse">
+                    <img class="img-fluid ml-lg-2 ml-md-4 ml-4 mt-2" src="cypher/Licenses/Ellipse%20157.svg">
+                    <div class="ellipse-text ml-md-2 my-5 py-md-4 ml-3">$130 <br> <span>3 MONTH</span></div>
+                </div>
+                <div class="less ml-md-3 mt-md-4 mt-3 mt-lg-4 pt-lg-4 mt-xl-5 ml-4" >$20 Less</div>
+                <button class="mb-5 btn ml-md-3 select ml-4 select-btn-2 " onmouseover="hover(this);" onmouseout="unhover(this);"><p>SELECT</p>  </button>
+
+            </div>
+        </div>
+
+
+
+        <div class="col-4 mt-3 mt-md-4 mt-lg-5">
+            <div class="license-img" style="position: absolute; "><img class="img-fluid" height="509" width="358" src="cypher/Licenses/prm.svg"></div>
+
+            <div  class=" license-div d-flex flex-column justify-content-around align-items-center " style="position: relative ">
+                <h3 class="mt-1 ml-4 ml-md-4 mt-lg-5 mr-lg-4">PREMIUM</h3>
+                <div class=" mt-lg-5 d-flex flex-column align-items-center ellipse">
+                    <img class="img-fluid ml-lg-2 ml-md-4 ml-4 mt-2" src="cypher/Licenses/Ellipse%20158.svg">
+                    <div class="ellipse-text ml-md-2 my-5 py-md-4 py-xl-5 ml-xl-1 ml-3">$240 <br> <span>6 MONTH</span></div>
+                </div>
+                <div class="less ml-md-3 mt-md-0 mt-lg-0 pt-xl-4 ml-4" >$60 Less</div>
+                <button class="mb-5 btn ml-md-3 select ml-4 select-btn " onmouseover="hover(this);" onmouseout="unhover(this);"><p>SELECT</p>  </button>
+
+            </div>
+        </div>
+
+
+
+        <div class="text text-center mt-5 col-12 bottom-text">Already have an account? Download Cypher <a href="">here</a></div>
+        <div class="text text-center mt-3  col-12 bottom-text-2">Please select a license type, after which you will be asked to create a profile, make a payment and download the application</div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+.navbar
+{
+    background: transparent !important;
+}
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}

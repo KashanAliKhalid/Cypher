@@ -1,0 +1,462 @@
+html,body
+{
+    top:0;
+    margin:0;
+    padding: 0;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}
+.navbar
+{
+    background: transparent !important;
+}
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}
+
+.text-antibrowser
+{
+    letter-spacing: 8px;
+    font-family:Montserrat;
+    font-size: 24px;
+    line-height: 16px !important;
+    font-weight: 800;
+    color:#ffffff !important;
+    margin-left: 40%;
+    margin-top:-20px;
+}
+
+body
+{
+    background-image: url("../cypher/Main/Background_main.png");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+
+.antibrowser-div
+{
+    height: 200px;
+}
+
+
+@media only screen and (min-width: 768px)  {
+    .antibrowser-div
+    {
+        position: relative;
+        top:30px;
+        height: 300px;
+    }
+
+
+}
+
+.text-antibrowser
+{
+    position: absolute;
+    margin-top:25px;
+}
+
+@media only screen and (max-width: 450px)  {
+    .text-antibrowser
+    {
+        letter-spacing: 7px;
+        font-family:Montserrat;
+        font-size: 11px;
+        margin-left: 13%;
+    }
+
+}
+
+@media only screen and (max-width: 865px) and (min-width: 450px)  {
+    .text-antibrowser
+    {
+        letter-spacing: 8px;
+        font-family:Montserrat;
+        font-size: 20px;
+        margin-left: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 1162px) and (min-width: 865px)  {
+    .text-antibrowser
+    {
+        letter-spacing: 8px;
+        font-family:Montserrat;
+        font-size: 18px;
+        margin-left: 50%;
+    }
+
+}
+
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.main-logo
+{
+    position: relative;
+
+}
+
+.cypher-logo
+{
+    position: absolute;
+}
+
+@media only screen and (min-width: 768px)  {
+
+    .main-logo
+    {
+        margin-right: 630px;
+        margin-top:150px;
+    }
+
+}
+
+
+.description-heading
+{
+    border-top:4px solid #cc47a5;
+    font-family:Montserrat;
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+    padding-top:20px;
+    letter-spacing: 3px;
+    transition: all 2s ease-in-out;
+    padding-left: 0;
+
+}
+.description-text-box
+{
+    padding-top: 20px;
+    border-top:1px solid gray;
+}
+
+.description-text
+{
+
+    color:white;
+    font-family:Montserrat;
+    font-size:19px;
+    line-height: 1.2;
+
+
+}
+.description-text-box .colon
+{
+    color:darkblue;
+    font-size:25px;
+
+
+}
+
+.description-container
+{
+    margin-top:320px;
+
+}
+
+.description-box
+{
+    background-color:rgba(204,71,165,0.3);
+    height: 150px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding-top: 65px;
+    text-align: center;
+}
+
+
+.description-box-active {
+    border-top: 3px solid rgb(204, 71, 165);
+    background-color: rgba(204, 71, 165, 0.6);
+    height: 150px;
+    transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 768px)  {
+
+    .description-heading
+    {
+        font-size: 10px;
+        padding-left: 0;
+    }
+    .description-text-box
+    {
+        padding-top: 10px;
+        line-height:0.7;
+    }
+
+    .description-text
+    {
+        font-size: 9px;
+    }
+
+    .description-text-box .colon
+    {
+        font-size:15px;
+    }
+
+    .description-container
+    {
+        margin-top:100px;
+    }
+
+    .description-box
+    {
+        height: 80px;
+        font-size: 10px;
+        padding-top: 35px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 716px)  {
+    .description-heading
+    {
+        font-size: 16px;
+    }
+}
+
+.fingerprints
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    margin-top:30px;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 900;
+    color:#ffffff !important;
+    text-shadow: -1px 1px, 1px 1px, 1px 1px;
+}
+
+
+
+@media only screen and (max-width: 768px)  {
+    .fingerprints
+    {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+
+}
+
+
+
+
+
+
+
+.fingerprint-div
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    height: 300px;
+    padding-top: 20px;
+}
+
+
+.fingerprint-list p
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    margin-top:30px;
+    font-size: 24px;
+    font-weight: 900;
+    color:white;
+    padding-left: 20px;
+}
+.fingerprint-list ul
+{
+    font-family:Montserrat;
+    margin-top:40px;
+    font-size: 22px;
+    font-weight: normal;
+    color:white;
+}
+
+.fingerprint-list ul li
+{
+    font-family:Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    color:white;
+}
+
+
+.fingerprint-list-last p
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    margin-top:-20px;
+    margin-left:25px;
+    font-size: 22px;
+    font-weight: 900;
+    color:white;
+    padding-left: 20px;
+
+}
+
+
+@media only screen and (max-width: 576px)  {
+    .fingerprint-list p
+    {
+        letter-spacing: 2px;
+        margin-top:20px;
+        font-size: 18px;
+        font-weight: 900;
+        color:white;
+        padding-left: 10px;
+    }
+    .fingerprint-list ul
+    {
+        font-family:Montserrat;
+        margin-top:30px;
+        font-size: 18px;
+        font-weight: normal;
+        color:white;
+        margin-left: -10px;
+    }
+
+    .fingerprint-list ul li
+    {
+        font-family:Montserrat;
+        font-size: 18px;
+        font-weight: normal;
+        color:white;
+    }
+
+    .fingerprint-list-last p
+    {
+        font-size: 11px;
+        margin-left: 10px;
+
+    }
+
+
+}
+
+.navbar
+{
+    background: transparent !important;
+}
+
+.active_nav
+{
+    border-bottom: 1px solid deeppink;
+    transition: border-bottom-width 3s ease-in;
+}
+
+.text
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 18px;
+    line-height: 16px !important;
+    font-weight: 400;
+    color:#ffffff !important;
+
+}
+
+
+.navbar-bottom-li
+{
+    padding-top:40px;
+    font-size: 20px;
+
+}
+
+
+.confident-antibrowser
+{
+    letter-spacing: 5px;
+    font-family:Montserrat;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 900;
+    color:#ffffff !important;
+    text-shadow: -1px 1px, 1px 1px, 1px 1px;
+    border-bottom: 3px solid deeppink;
+
+}
+
+.download2
+{
+    float:right;
+}
+
+
+
+@media only screen and (max-width: 768px)  {
+
+    .navbar-bottom
+    {
+        margin-top: 30px;
+    }
+    .confident-antibrowser,.download2
+    {
+        padding-bottom: 30px;
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .navbar-bottom-li
+    {
+        padding-top:10px;
+        font-size: 20px
+
+    }
+
+    .bottom-img
+    {
+        width:50px;
+        height: 50px;
+        padding-top: 0;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+

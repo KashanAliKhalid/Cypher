@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+
+    <script rel="script" type="text/javascript" src="js/index.js" ></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--   inter font for headings-->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Cypher</title>
+    <link rel="shortcut icon" href="cypher/LOGO%20mini.png" />
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class=""><img height="30" width="30" src="hamburger.png"></span>
+    </button>
+
+    <div class="collapse navbar  navbar-collapse" id="navbarSupportedContent">
+        <ul id="navbar" class="navbar-nav mb-4 ml-lg-0">
+            <li class="nav-item active">
+                <a id="main" class="nav-link text active_nav" href="Index.html">MAIN<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="about" class="nav-link text" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="documentation" class="nav-link text" href="Documentation.html">DOCUMENTATION<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="faq" class="nav-link text" href="faq.html">FAQ<span class="sr-only">(current)</span></a>
+            </li>
+
+        </ul>
+        <ul class="navbar-nav ml-lg-auto mr-lg-4 mb-4" >
+
+            <li class="nav-item active nav-right-button ml-lg-auto mr-lg-1  ">
+                <a class="nav-link text mt-1" href="Download.html"><img src="cypher/Download%20button.svg" height="40"><span class="sr-only"></span></a>
+            </li>
+
+            <li  class="nav-item dropdown ml-lg-auto mt-3 ">
+                <a class="nav-link dropdown-toggle text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    EN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container antibrowser-div d-flex flex-column justify-content-center align-items-center mt-5">
+<img src="cypher/main%20logo.svg" width="400" height="400" class="main-logo img-fluid mb-5 ml-5 ">
+<img class="img-fluid cypher-logo mr-5" src="cypher/LOGO.png" width="500" height="200">
+</div>
+<p class="text-antibrowser pb-5">ERGONOMIC ANTIBROWSER</p>
+<div class="container description-container">
+    <div class="row">
+        <div  class="col-3 description-heading ">Functionality</div>
+        <div  class=" col-6 description-text-box"><span class="colon">"</span>
+            <span class="description-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            <span class="colon">"</span>
+        </div>
+        <div id="description" class="col-3">
+            <div class="row">
+                <div id="d1" class=" col-4  description-box description-box-active">01</div>
+                <div id="d2" class=" col-4  description-box">02</div>
+                <div id="d3" class=" col-4  description-box">03</div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="container fingerprints"> <p>List of</p> <p>Fingerprints</p></div>
+
+<div class="container">
+    <div class="row">
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+         <div style='background-image: url("cypher/Main/list of fingerprints/Frame 1.svg");' class="fingerprint-div">
+            <div class="fingerprint-list ">
+                <p>NAVIGATOR</p>
+                <ul>
+                    <li>userAgent</li>
+                    <li>language</li>
+                    <li>platform</li>
+                    <li>etc.</li>
+                </ul>
+
+            </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 2.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>CANVAS</p>
+                    <ul>
+                        <li>API Interception</li>
+                        <li>value substitution</li>
+                        <li>platform</li>
+                        <li>fingerprints spoofing</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 3.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>WEB GL</p>
+                    <ul>
+                        <li>API Interception</li>
+                        <li>value substitution</li>
+                        <li>platform</li>
+                        <li>fingerprints spoofing</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 4.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>WINDOW</p>
+                    <ul>
+                        <li>window</li>
+                        <li>values</li>
+                        <li>substitution</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 5.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>BROWSER PLUGINS</p>
+                    <ul>
+                        <li style="list-style: none; margin-left:-20px; margin-top:-30px">The list of substituion</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 6.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>WEBRTC</p>
+                    <ul>
+                        <li>API Interception</li>
+                        <li>value substitution</li>
+                        <li>platform</li>
+                        <li>fingerprints spoofing</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 7.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>TIMEZONE</p>
+                    <ul>
+                        <li style="list-style: none; margin-left:-20px;">Setting the required timezone</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 8.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>MEIDA DEVICES</p>
+                    <ul>
+                        <li style="list-style: none; margin-left:-20px; margin-top:-30px">The list of media devices substitution</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 9.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>FONTS</p>
+                    <ul>
+                        <li>the list of font substitution</li>
+                        <li>fingerprints spoofing</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="  col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 10.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>GEOLOCATION</p>
+                    <ul>
+                        <li style="list-style: none; margin-left:-20px">The setting of the necessary geo coordinates</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-6 col-sm-6 mt-3" >
+            <div style='background-image: url("cypher/Main/list of fingerprints/Frame 11.svg");' class="fingerprint-div">
+                <div class="fingerprint-list ">
+                    <p>SCREEN OBJECT</p>
+                    <ul style="margin-top: -10px;">
+                        <li>screen resolution</li>
+                        <li>number of colons</li>
+                        <li>display orientation</li>
+                        <li>etc.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-4 col-sm-6 mt-3" >
+            <div class="fingerprint-div">
+                <img src="cypher/Main/list%20of%20fingerprints/Frame%2012.svg" width="141" height="141">
+                <div class="fingerprint-list-last">  <p>... AND MORE</p></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+<div class="container mt-md-5 mt-lg-5">
+
+    <div class="row mt-5">
+        <div class="col-6 confident-antibrowser mt-md-2 ">Be confident in your<br> anti-browser</div>
+        <div class="col-6 "> <a href="" ><img width="400" height="300" class="download2 img-fluid" src="cypher/Download%20button%202.svg"></a></div>
+    </div>
+
+</div>
+<div style="background-color: #371f42" >
+    <nav class="navbar navbar-bottom navbar-expand-lg navbar-light ">
+        <ul id="navbar-2" class="navbar-nav mb-4 ml-lg-4">
+
+            <li class="nav-item active ml-lg-5">
+                <a  class="nav-link text" href="#"><img class="bottom-img" width="80" height="80" src="cypher/ico.png"><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active ml-lg-5">
+                <a id="about-2"  class="nav-link text navbar-bottom-li " href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active ml-lg-5">
+                <a id="documentation-2"  class="nav-link text navbar-bottom-li" href="Documentation.html">DOCUMENTATION<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active ml-lg-5">
+                <a id="faq-2"  class="nav-link text navbar-bottom-li" href="faq.html">FAQ<span class="sr-only">(current)</span></a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+
+
+
+</body>
+</html>
